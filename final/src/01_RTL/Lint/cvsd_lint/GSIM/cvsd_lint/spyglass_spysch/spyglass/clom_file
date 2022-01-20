@@ -1,0 +1,192 @@
+##This file is genrated to have command line decompiled Info even in Console
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--goal_info     cvsd_lint@        CmdLine -                              -
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 40
+-batch          <ON>              CmdLine -                              -
+-dbdir          ./cvsd_lint/GSIM/.SG_SaveRestoreDB CmdLine -                              -
+-enable_save_restore <ON>              CmdLine -                              -
+-enable_save_restore_builtin true              CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 30
+-lib            WORK=>./cvsd_lint/GSIM/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdLine -                              -
+-nl             <ON>              CmdLine -                              -
+-overloadrules  W392+severity=ERROR CmdLine -                              -
+                W448+severity=ERROR CmdLine -                              -
+                W120+severity=ERROR CmdLine -                              -
+                W121+severity=ERROR CmdLine -                              -
+                W123+severity=ERROR CmdLine -                              -
+                W188+severity=ERROR CmdLine -                              -
+                W240+severity=ERROR CmdLine -                              -
+                W423+severity=ERROR CmdLine -                              -
+                W69+severity=ERROR CmdLine -                              -
+                W110+severity=ERROR CmdLine -                              -
+                W116+severity=ERROR CmdLine -                              -
+                W122+severity=ERROR CmdLine -                              -
+                W164b+severity=ERROR CmdLine -                              -
+                W164a+severity=ERROR CmdLine -                              -
+                W502+severity=ERROR CmdLine -                              -
+                W293+severity=ERROR CmdLine -                              -
+                W294+severity=ERROR CmdLine -                              -
+                W339a+severity=ERROR CmdLine -                              -
+                W442f+severity=ERROR CmdLine -                              -
+                W442b+severity=ERROR CmdLine -                              -
+                W464+severity=ERROR CmdLine -                              -
+                W224+severity=ERROR CmdLine -                              -
+                W342+severity=ERROR CmdLine -                              -
+                W343+severity=ERROR CmdLine -                              -
+                W422+severity=ERROR CmdLine -                              -
+                W415+severity=ERROR CmdLine -                              -
+                W245+severity=ERROR CmdLine -                              -
+                W187+severity=ERROR CmdLine -                              -
+                W226+severity=ERROR CmdLine -                              -
+                W337+severity=ERROR CmdLine -                              -
+                W398+severity=ERROR CmdLine -                              -
+                W287c+severity=ERROR CmdLine -                              -
+                W336+severity=ERROR CmdLine -                              -
+                W414+severity=ERROR CmdLine -                              -
+-policy         lint              CmdLine -                              -
+-projectwdir    ./cvsd_lint       CmdLine -                              -
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-rules          W392              CmdLine -                              -
+                W395              CmdLine -                              -
+                W402b             CmdLine -                              -
+                W402a             CmdLine -                              -
+                W448              CmdLine -                              -
+                W34               CmdLine -                              -
+                W120              CmdLine -                              -
+                W121              CmdLine -                              -
+                W123              CmdLine -                              -
+                W143              CmdLine -                              -
+                W154              CmdLine -                              -
+                W188              CmdLine -                              -
+                W240              CmdLine -                              -
+                W241              CmdLine -                              -
+                W423              CmdLine -                              -
+                W468              CmdLine -                              -
+                W493              CmdLine -                              -
+                W494              CmdLine -                              -
+                W495              CmdLine -                              -
+                W497              CmdLine -                              -
+                W498              CmdLine -                              -
+                W528              CmdLine -                              -
+                W17               CmdLine -                              -
+                W69               CmdLine -                              -
+                W110              CmdLine -                              -
+                W116              CmdLine -                              -
+                W122              CmdLine -                              -
+                W162              CmdLine -                              -
+                W163              CmdLine -                              -
+                W164b             CmdLine -                              -
+                W164a             CmdLine -                              -
+                W263              CmdLine -                              -
+                W316              CmdLine -                              -
+                W328              CmdLine -                              -
+                W362              CmdLine -                              -
+                W446              CmdLine -                              -
+                W453              CmdLine -                              -
+                W456              CmdLine -                              -
+                W456a             CmdLine -                              -
+                W484              CmdLine -                              -
+                W486              CmdLine -                              -
+                W488              CmdLine -                              -
+                W502              CmdLine -                              -
+                W504              CmdLine -                              -
+                W552              CmdLine -                              -
+                W553              CmdLine -                              -
+                W239              CmdLine -                              -
+                W293              CmdLine -                              -
+                W294              CmdLine -                              -
+                W339a             CmdLine -                              -
+                W430              CmdLine -                              -
+                W442f             CmdLine -                              -
+                W442c             CmdLine -                              -
+                W442b             CmdLine -                              -
+                W442a             CmdLine -                              -
+                W464              CmdLine -                              -
+                W505              CmdLine -                              -
+                W159              CmdLine -                              -
+                W180              CmdLine -                              -
+                W224              CmdLine -                              -
+                W289              CmdLine -                              -
+                W341              CmdLine -                              -
+                W342              CmdLine -                              -
+                W343              CmdLine -                              -
+                W443              CmdLine -                              -
+                W444              CmdLine -                              -
+                W467              CmdLine -                              -
+                W490              CmdLine -                              -
+                W561              CmdLine -                              -
+                W563              CmdLine -                              -
+                W575              CmdLine -                              -
+                W576              CmdLine -                              -
+                W391              CmdLine -                              -
+                W401              CmdLine -                              -
+                W422              CmdLine -                              -
+                W323              CmdLine -                              -
+                W415              CmdLine -                              -
+                W238              CmdLine -                              -
+                W245              CmdLine -                              -
+                W421              CmdLine -                              -
+                W18               CmdLine -                              -
+                W187              CmdLine -                              -
+                W226              CmdLine -                              -
+                W332              CmdLine -                              -
+                W337              CmdLine -                              -
+                W398              CmdLine -                              -
+                W146              CmdLine -                              -
+                W210              CmdLine -                              -
+                W287c             CmdLine -                              -
+                W287b             CmdLine -                              -
+                W287a             CmdLine -                              -
+                W336              CmdLine -                              -
+                W414              CmdLine -                              -
+-sortmethod     du                Config  $SPYGLASS_HOME/.spyglass.setup 27
+-templatedir    /home/raid7_4/raid1_1/linux/synopsys/spyglass/2019.06/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff CmdLine -                              -
+-top            GSIM              CmdLine -                              -
+-wdir           ./cvsd_lint/GSIM/cvsd_lint CmdLine -                              -
+<design_files>  ../GSIM.v         APICall -                              -
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/spyglass
+lint            SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/lint
+Audits          SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/Audits
+area            SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/area
+latch           SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/latch
+miscellaneous   SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/miscellaneous
+morelint        SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/morelint
+openmore        SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/openmore
+starc           SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/starc
+starc2002       SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/starc2002
+timing          SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/timing
+starcad-21      SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/starcad-21
+erc             SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/erc
+simulation      SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/simulation
+starc2005       SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/starc2005
+txv             SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/txv
+power_est       SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/power_est
+lowpower        5.6.1           $SPYGLASS_HOME/policies/lowpower
+dft_dsm         SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/dft_dsm
+dft             SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/dft
+constraints     SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/constraints
+const_intern1   SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/constraints
+clock-reset     SpyGlass_vP-2019.06 $SPYGLASS_HOME/policies/clock
+
+

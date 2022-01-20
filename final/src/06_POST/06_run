@@ -1,0 +1,1 @@
+ncverilog -f rtl_06.f +ncmaxdelays +define+APR+tb4 +access+r

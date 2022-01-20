@@ -1,0 +1,15 @@
+================================================================================
+Elaborated Name: 'GSIM'
+    (RTL Design Unit name: 'GSIM', ../GSIM.v:1)
+     Parameters (Total: 10)
+         S_IDLE      = 0 (default: 3'd0)
+         S_LD_MTX    = 1 (default: 3'd1)
+         S_INIT      = 2 (default: 3'd2)
+         S_SOLVE_0   = 3 (default: 3'd3)
+         S_SOLVE_1   = 4 (default: 3'd4)
+         S_SOLVE_2   = 5 (default: 3'd5)
+         S_SW_MTX    = 6 (default: 3'd6)
+         S_DONE      = 7 (default: 3'd7)
+         ITER_COUNT  = 16 (default: 16)
+         SWEEP_COUNT = 16 (default: 16)
+================================================================================

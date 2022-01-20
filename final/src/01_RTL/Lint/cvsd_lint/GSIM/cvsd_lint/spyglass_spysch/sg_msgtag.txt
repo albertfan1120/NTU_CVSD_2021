@@ -1,0 +1,88 @@
+5 "W328" 1
+"SPG_MSGTAG_HIERARCHY"
+":GSIM"
+6 "W328" 1
+"SPG_MSGTAG_HIERARCHY"
+":GSIM"
+7 "W162" 1
+"SPG_MSGTAG_HIERARCHY"
+":GSIM"
+8 "W484" 1
+"SPG_MSGTAG_HIERARCHY"
+":GSIM"
+9 "W486" 1
+"SPG_MSGTAG_HIERARCHY"
+":GSIM"
+11 "W498" 1
+"SPG_MSGTAG_HIERARCHY"
+":GSIM"
+12 "W498" 1
+"SPG_MSGTAG_HIERARCHY"
+":GSIM"
+13 "W164a" 1
+"SPG_MSGTAG_HIERARCHY"
+":GSIM"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "W162" 3
+"TEMPLATE"
+["cvsd_lint"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Verilint_Compat"]
+-1 "W164a" 3
+"TEMPLATE"
+["cvsd_lint"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/width_rules_lint","lint/Lint_Elab_Rules","lint/Assign/W164"]
+-1 "W328" 3
+"TEMPLATE"
+["cvsd_lint"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Verilint_Compat"]
+-1 "W484" 3
+"TEMPLATE"
+["cvsd_lint"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Assign"]
+-1 "W486" 3
+"TEMPLATE"
+["cvsd_lint"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Expression"]
+-1 "W498" 3
+"TEMPLATE"
+["cvsd_lint"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "W528" 3
+"TEMPLATE"
+["cvsd_lint"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "WRN_1024" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"

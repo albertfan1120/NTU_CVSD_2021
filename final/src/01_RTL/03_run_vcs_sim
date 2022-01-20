@@ -1,0 +1,1 @@
+vcs +v2k -sverilog +lint=TFIPC-L -full64 -f rtl_01.f -cm line+fsm+cond+tgl+branch +define+VCS +define+tb3 -R -l vcs.log 

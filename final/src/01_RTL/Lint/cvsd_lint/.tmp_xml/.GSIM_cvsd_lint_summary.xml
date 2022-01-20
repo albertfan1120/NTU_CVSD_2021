@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<goal_summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="file://Dashboard/goal_xml.xsd">
+<!-- This file schema is internal to Atrenta DashBoard and subject to change in future without notice --> 
+<goal name="cvsd_lint"/>
+<top name="GSIM"/>
+<dir name="/home/raid7_1/userd/d06027/CVSD/110/final/1101_final_v2/01_RTL/Lint/cvsd_lint/consolidated_reports/GSIM_cvsd_lint/"/>
+<log name="/home/raid7_1/userd/d06027/CVSD/110/final/1101_final_v2/01_RTL/Lint/cvsd_lint/GSIM/cvsd_lint/spyglass.log" link="data_files/GSIM_cvsd_lint_spyglass.log"/>
+  <std_reports> 
+<report name="moresimple" link="data_files/GSIM_cvsd_lint_moresimple.rpt" tooltip="moresimple.rpt" />
+<report name="no_msg_reporting_rules" link="data_files/GSIM_cvsd_lint_no_msg_reporting_rules.rpt" tooltip="no_msg_reporting_rules.rpt" />
+  </std_reports> 
+<tech_reports> 
+   <technology name="(Not Available)"> 
+   </technology> 
+</tech_reports> 
+<statistics fatal="0" error="1" warning="12" info="4" waived_error="0" waived_warning="0" waived_info="0" /> 
+<tech_summary> 
+</tech_summary> 
+</goal_summary> 

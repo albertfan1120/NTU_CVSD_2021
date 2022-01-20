@@ -1,0 +1,2 @@
+pt_shell -f ./try_script.tcl
+python try_diff.py

@@ -1,0 +1,1 @@
+ncverilog testbench.v alu.v +define+I0 +access+rw 

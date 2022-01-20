@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>SpyGlass Goal Summary Instructions </title>
+	<link type="text/css" href="css/south-street/jquery-ui-1.8.22.custom.css" rel="stylesheet"/>
+	<style>
+	body,ol, ul, p, td{
+		padding:40px; 
+		color:#333333; 
+		font-family:arial;
+	}
+	
+	h1{
+		color:#76BB70;
+		font-size:20px;
+	}
+	h3{
+		color:#76BB70;
+		font-size:16px;
+		margin:0;
+	}
+	
+	ol, p{
+		font-size:13px;
+		
+		
+	}
+	ol,li{
+	line-height:20px;
+	padding:0px;
+	padding-left:20px;
+	}
+	hr{
+		border:1px solid #CCCCCC;
+	}
+	</style>
+</head>
+
+<body >
+	<h3>Missing SpyGlass Consolidated Goal Summary</h3>
+	<hr>
+	<div>
+		 To generate this report, you need <strong>dashboard</strong> license feature <br><br>
+		 SpyGlass tries to generate this consolidated report after completing the last goal run <br>
+		 However, if it was set not to generate (Ex: option 'set_option disable_html_report {html}' specified in the project file) or if you are running goals in an interactive session (Ex: sg_shell) you need to explicitly generate this report <br><br>
+		 One of the following steps can generate the report
+		 <ol>
+			<li>From the UI, select menu Reports-- Html
+			<li>In sg_shell, use command 'write_aggregate_report html'
+			<li>Use spyglass batch command 'spyglass -gen_aggregate_report html -project your_project.prj'
+		 </ol>
+	</div>
+	
+	<!--div style="width:44%;float:left;margin-left:20px;padding:20px;">
+		<h3>If you are using Linux Platform</h3>
+		<ol>	
+		 <li><strong>On </strong>your UNIX          
+		</ol>
+	</div-->
+	
+</body>
+</html>

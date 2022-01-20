@@ -1,0 +1,20 @@
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09-SP5
+Date:        Sat Jan 15 16:00:35 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Unconnected ports (LINT-28)                                     1
+
+Cells                                                               2
+    Cells do not drive (LINT-1)                                     2
+--------------------------------------------------------------------------------
+
+Warning: In design 'IOTDF', cell 'C3768' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C3926' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', port 'in_en' is not connected to any nets. (LINT-28)
+1

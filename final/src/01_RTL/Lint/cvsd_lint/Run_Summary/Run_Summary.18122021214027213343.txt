@@ -1,0 +1,15 @@
+Date Created     : 18-12-2021 21:40:27
+SpyGlass Version : SpyGlass_vP-2019.06
+Project Name     : cvsd_lint
+Goal Name        : cvsd_lint
+Scenario Name    : default_scenario
+Top              : GSIM
+
+Message Summary
+Severity   Non-Waived  Waived
+FATAL           0         0
+ERROR           1         0
+WARNING        12         0
+INFO            4         0
+
+-dashboard_data sync_crossings 

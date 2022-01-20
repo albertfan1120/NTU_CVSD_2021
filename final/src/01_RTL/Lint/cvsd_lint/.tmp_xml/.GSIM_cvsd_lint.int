@@ -1,0 +1,5 @@
+INPUT@@/home/raid7_1/userd/d06027/CVSD/110/final/1101_final_v2/01_RTL/Lint/cvsd_lint/GSIM/cvsd_lint/spyglass_reports@@/home/raid7_1/userd/d06027/CVSD/110/final/1101_final_v2/01_RTL/Lint/cvsd_lint/html_reports/data_files/@@GSIM@@cvsd_lint@@
+COPY@@/home/raid7_1/userd/d06027/CVSD/110/final/1101_final_v2/01_RTL/Lint/cvsd_lint/GSIM/cvsd_lint/spyglass_reports/moresimple.rpt@@data_files/GSIM_cvsd_lint_moresimple.rpt@@
+COPY@@/home/raid7_1/userd/d06027/CVSD/110/final/1101_final_v2/01_RTL/Lint/cvsd_lint/GSIM/cvsd_lint/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/GSIM_cvsd_lint_no_msg_reporting_rules.rpt@@
+PROCESS@@Audits@@area@@morelint@@timing@@lowpower@@clock-reset@@const_intern1@@constraints@@dft@@dft_dsm@@power_est@@txv@@starc2005@@simulation@@erc@@starc2002@@starc@@openmore@@miscellaneous@@latch@@lint@@SpyGlass
+COPY@@/home/raid7_1/userd/d06027/CVSD/110/final/1101_final_v2/01_RTL/Lint/cvsd_lint/GSIM/cvsd_lint/spyglass.log@@data_files/GSIM_cvsd_lint_spyglass.log@@

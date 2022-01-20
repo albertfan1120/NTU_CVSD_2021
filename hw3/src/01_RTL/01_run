@@ -1,0 +1,1 @@
+ncverilog -f rtl_01.f +notimingchecks +access+r +define+tb0
